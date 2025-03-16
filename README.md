@@ -4,8 +4,6 @@ implementando autenticação via OAuth 2.0, mais especificamente com o fluxo de
 authorization code flow, a implementação de endpoint de integração com a API e o 
 recebimento de notificações via webhooks. 
 
-# Instruções para a execução
-
 ## O que é necessário instalar
 - JDK 21
 - Maven
