@@ -80,4 +80,11 @@ O access token também pode ser visto no console da aplicação:
 - 3. Spring Boot DevTools - Ferramentas de Debug e reinicialização automática
 - 4. Guava - Para utilização do RateLimiter
 
+## Organização do Projeto
+A api está organizada da seguinte maneira:
+- Módulo Config: Configurações de segurança
+- Módulo Controllers: Configurações de endpoints da API
+- Módulo Service: Os arquivos nos quais as lógicas das operações dos endpoints foram implementadas
+- Módulo Model: Os arquivos de modelos para a request de criação de usuário e payload do Webhook do Hubspot, criados para facilitar a visualização de informações necessárias e seus tipos,
+além de encapsular e proteger melhor as informações
 
