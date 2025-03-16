@@ -12,8 +12,8 @@ recebimento de notificações via webhooks.
 - Alguma forma de expor a API na internet para que os webhooks possam ser enviados para ela (no meu caso, para os testes eu utilizei o ngrok)
 
 ## O que é necessário configurar
-- No aplicativo HubSpot
-Crie um aplicativo HubSpot na conta desenvolvedor, na aba "Autenticação" coloque a URL de redirecionamento da API (por padrão da API sendo localhost:8080/oauth/callback)
+- No aplicativo HubSpot: 
+Crie um aplicativo HubSpot usando uma conta desenvolvedor, na aba "Autenticação" coloque a URL de redirecionamento da API (por padrão da API sendo localhost:8080/oauth/callback)
 No menu lateral, em "Webhooks", configure a URL de destino como o link público da sua aplicação/webhook/contact-creation e crie um webhook para contact.creation
 
 - Configurar seu application.properties:
